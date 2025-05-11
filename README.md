@@ -1,22 +1,3 @@
-# Phone Authentication App
-
-A Next.js and Flask application with phone number authentication using OTP verification.
-
-## Features
-
-- User registration with name, email, and phone number
-- Phone number authentication with OTP
-- Secure JWT-based session management
-- Protected dashboard route
-- Modern UI with Tailwind CSS
-
-## Prerequisites
-
-- Node.js (v18 or later)
-- Python 3.8 or later
-- MongoDB (for database)
-- Twilio Account (for OTP service)
-
 ## Setup
 
 ### Frontend Setup
@@ -93,6 +74,47 @@ A Next.js and Flask application with phone number authentication using OTP verif
    ```bash
    python app.py
    ```
+
+## Setup for Team Members
+
+### Option 1: Using the Shared GitHub Account
+
+If you're using the shared axb220060 GitHub account, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/axb220060/credit_app.git
+   cd credit_app
+   ```
+
+2. Configure Git with the shared account details:
+
+   ```bash
+   git config user.name "axb220060"
+   git config user.email "axb220060@utdallas.edu"
+   ```
+
+3. Push using the PAT directly in the URL (ask team lead for the actual token):
+
+   ```bash
+   git remote set-url origin https://axb220060:YOUR_PERSONAL_ACCESS_TOKEN@github.com/axb220060/credit_app.git
+   ```
+
+   Replace `YOUR_PERSONAL_ACCESS_TOKEN` with the actual token provided by your team lead.
+
+4. Now you can push without entering credentials:
+   ```bash
+   git push
+   ```
+
+Alternatively, you can store credentials for future operations:
+
+```bash
+git config credential.helper store
+```
+
+When pushing for the first time, enter `axb220060` for username and the PAT for password.
 
 ## Usage
 
