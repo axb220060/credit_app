@@ -1,21 +1,4 @@
-# Phone Authentication App
 
-A Next.js and Flask application with phone number authentication using OTP verification.
-
-## Features
-
-- User registration with name, email, and phone number
-- Phone number authentication with OTP
-- Secure JWT-based session management
-- Protected dashboard route
-- Modern UI with Tailwind CSS
-
-## Prerequisites
-
-- Node.js (v18 or later)
-- Python 3.8 or later
-- MongoDB (for database)
-- Twilio Account (for OTP service)
 
 ## Setup
 
