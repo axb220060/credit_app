@@ -127,31 +127,5 @@ When pushing for the first time, enter `axb220060` for username and the PAT for 
 
 ## Development
 
-- Frontend runs on `http://localhost:3000`
-- Backend API runs on `http://localhost:5001`
-
-## Deployment
-
-### Frontend (Next.js)
-
-The Next.js application can be deployed to Vercel, Netlify, or any other Next.js-compatible hosting service.
-
-```bash
-# Build for production
-npm run build
-
-# Start the production server
-npm start
-```
-
-### Backend (Flask)
-
-The Flask backend can be deployed using WSGI servers like Gunicorn with Nginx:
-
-```bash
-# Install Gunicorn
-pip install gunicorn
-
-# Run with Gunicorn
-gunicorn -w 4 -b 0.0.0.0:5001 wsgi:app
-```
+- Frontend runs on `http://localhost:3000` (start with `npm run dev`)
+- Backend API runs on `http://localhost:5001` (start with `python app.py`)
