@@ -73,7 +73,7 @@ wheels/
 *.egg
 
 # Environment variables
-.env
+# .env  # Commented out to allow tracking .env files
 .venv
 env/
 venv/
